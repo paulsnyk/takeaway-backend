@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/dregules/takeaway-backend/badge.svg?branch=master)](https://travis-ci.org/dregules/takeaway-backend)
-[![Coverage Status](https://coveralls.io/repos/dregules/takeaway-backend/badge.svg?branch=master&service=github)](https://coveralls.io/github/dregules/takeaway-backend?branch=master)
+[![Build Status](https://travis-ci.org/dregules/takeaway-backend.svg?branch=master)](https://travis-ci.org/dregules/takeaway-backend)
+
 [![Code Climate](https://codeclimate.com/github/dregules/takeaway-backend/badges/gpa.svg)](https://codeclimate.com/github/dregules/takeaway-backend)
 
 SUMMARY
