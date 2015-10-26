@@ -12,6 +12,7 @@ class List
     @food_order = Hash.new { |hash, key| hash[key] = 0 }
   end
 
+
   def load_predefined_dishes
     @available = DEFAULT_DISHES
   end

@@ -16,6 +16,5 @@ describe Dish do
       spaghetti = Dish.create('Spaghetti', 3.50)
       expect(spaghetti.price).to eq 3.50
     end
-
   end
 end
