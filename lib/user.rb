@@ -28,7 +28,7 @@ class User
 private
       def send_sms
         account_sid = 'AC98d3efd00c4a9a7bbb98fc8f86d2308a'
-        auth_token = '7872f37eb4c6ff5b8dd181d98f99a4ba'
+        auth_token = ENV['Twilio_Auth_Token']
         @client = Twilio::REST::Client.new account_sid, auth_token
         @client.account.messages.create({
           :from => '+441761502062',
@@ -47,5 +47,3 @@ private
         add_one_hour.to_s + delivery_time[2..4]
       end
 end
-
-
